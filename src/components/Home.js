@@ -31,9 +31,9 @@ export const Home = () => {
 					<button>submit</button>
 				</Link>
 				{lastData.map((item) => (
-					<li key={item.id} className="white-text">
+					<p key={item.id} className="white-text center-align">
 						{item.name}
-					</li>
+					</p>
 				))}
 			</div>
 		</div>
