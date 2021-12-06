@@ -29,5 +29,4 @@ const Info = ({ weight, height, id, date, bmi, deleteCard, username }) => {
 	);
 };
 
-
 export default Info;

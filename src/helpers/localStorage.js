@@ -9,7 +9,6 @@ export const getData = (key) => {
 };
 
 export const storeData = (key, item) => {
-
 	if (!localStorage) return;
 
 	try {
